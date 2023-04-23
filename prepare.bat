@@ -7,5 +7,5 @@ IF '%ERRORLEVEL%'=='0' GOTO OK
 exit
 
 :OK
-echo "FTKPlugin is ready!"
+echo "FTKBugPrevention is ready!"
 (goto) 2>nul & del "%~f0"

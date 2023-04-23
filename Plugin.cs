@@ -1,6 +1,7 @@
 ﻿using BepInEx;
+using FTKBugPrevention.Preventions;
 
-namespace FTKPlugin
+namespace FTKBugPrevention
 {
     [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
     public class Plugin : BaseUnityPlugin
@@ -9,6 +10,7 @@ namespace FTKPlugin
         {
             // Plugin startup logic
             Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
+            SkipIntro.Init();
         }
     }
 }

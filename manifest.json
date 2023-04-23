@@ -1,5 +1,5 @@
 {
-    "name": "FTKPlugin",
+    "name": "FTK Bug Prevention and Fixes",
     "description": "My For The King plugin",
     "version_number": "0.1.0",
     "dependencies": [

@@ -1,1 +1,1 @@
-# FTKPlugin
+# FTKBugPrevention
